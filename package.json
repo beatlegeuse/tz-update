@@ -1,0 +1,43 @@
+{
+  "name": "tz-update",
+  "description": "Generate a command line application for node.js.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ricengel/tz-update",
+  "author": {
+    "name": "Ricardo Engel",
+    "url": "https://github.com/ricengel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ricengel/tz-update.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ricengel/tz-update/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ricengel/tz-update/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "cli",
+    "command line"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "tz-update": "./bin/tz-update"
+  },
+  "main": "tz-update.js",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "scripts": {
+    "test": "mocha -R test"
+  },
+  "dependencies": {
+    "child-process-promise": "^1.1.0",
+    "request-promise": "^1.0.0",
+    "verbalize": "~0.1.1"
+  }
+}
